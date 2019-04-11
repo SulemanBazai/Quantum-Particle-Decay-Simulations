@@ -12,7 +12,7 @@ import numpy as np
 
 class Kdecay:
     
-    ###########################################################################
+    ##########################################################################
     
     # let's import numpy here so argument handling in the function calls
     # can use numpy stuff in defining default values.
