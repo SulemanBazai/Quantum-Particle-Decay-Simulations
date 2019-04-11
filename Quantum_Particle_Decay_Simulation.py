@@ -103,7 +103,7 @@ def decays(run):
         y3position_minus = (z_calorimeter-zinitial)*pmu_minus[2]/pmu_minus[3]
         y3position_plus = (z_calorimeter-zinitial)*pmu_plus[2]/pmu_plus[3]
         
-        #calculate theta, phi, and z in spehrical coordinates and add into arrays
+        #calculate theta, phi, and z in spherical coordinates and add into arrays
         #for all decays
         phase_space_theta_mrad_all[i] = np.arccos(z_calorimeter/np.sqrt\
                     (x3position_plus**2+y3position_plus**2+z_calorimeter**2))*1000
